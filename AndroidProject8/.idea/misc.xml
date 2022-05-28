@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/fest/AndroidStudioProjects/MireaHomeProject82/yandexdriver/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
-        <entry key="..\:/Users/fest/AndroidStudioProjects/MireaHomeProject82/yandexmaps/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/nikit/AndroidStudioProjects/Laboratory1/app/src/main/res/layout/activity_maps.xml" value="0.184375" />
+        <entry key="..\:/Users/nikit/AndroidStudioProjects/Laboratory1/yandexdriver/src/main/res/layout/activity_main.xml" value="0.16875" />
+        <entry key="..\:/Users/nikit/AndroidStudioProjects/Laboratory1/yandexmaps/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.15070921985815602" />
+        <entry key="yandexdriver/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
+        <entry key="yandexmaps/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
       </map>
     </option>
   </component>
