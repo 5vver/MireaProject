@@ -99,7 +99,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapClick(@NonNull LatLng latLng) {
         drawMarker(latLng);
-//        pointList.add(latLng);
 
     }
 
@@ -107,13 +106,4 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().title("Где я?")
                 .snippet("Новое место").position(latLng));
     }
-
-//    @Override
-//    protected void onSaveInstanceState(Bundle outState) {
-//        // Adding the pointList arraylist to Bundle
-//        outState.putParcelableArrayList("points", pointList);
-//
-//        // Saving the bundle
-//        super.onSaveInstanceState(outState);
-//    }
 }
