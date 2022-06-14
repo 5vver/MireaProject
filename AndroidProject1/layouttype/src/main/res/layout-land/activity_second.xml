@@ -8,7 +8,7 @@
     <Button
         android:id="@+id/button32"
         android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="4dp"
         android:text="Пятая кнопка"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
     <Button
         android:id="@+id/button31"
         android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:text="Пятая кнопка"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +30,7 @@
     <Button
         android:id="@+id/button30"
         android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="4dp"
         android:text="Четвертая кнопка"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
     <Button
         android:id="@+id/button29"
         android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="4dp"
         android:text="Третья кнопка"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +52,7 @@
     <Button
         android:id="@+id/button28"
         android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:text="Вторая кнопка"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +63,7 @@
     <Button
         android:id="@+id/button27"
         android:layout_width="266dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="4dp"
         android:text="Первая кнопка"
         app:layout_constraintEnd_toEndOf="parent"

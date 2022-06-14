@@ -83,11 +83,15 @@ public class MainActivity extends AppCompatActivity implements
 
     @Override
     public void onObjectAdded(@NonNull UserLocationView userLocationView) {
-        userLocationLayer.setAnchor(new PointF((float) (mapView.getWidth()*0.5), (float) (mapView.getHeight()*0.5)),
-        // when determine route the next icon sets:
+        userLocationLayer.setAnchor(
+                new PointF((float)(mapView.getWidth() * 0.5), (float)(mapView.getHeight() *
+                        0.5)),
+                new PointF((float)(mapView.getWidth() * 0.5), (float)(mapView.getHeight() *
+                        0.83)));
+        // При определении направления движения устанавливается следующая иконка
         userLocationView.getArrow().setIcon(ImageProvider.fromResource(
                 this,android.R.drawable.star_big_on ));
-        // when getting cords the next icon sets:
+        // При получении координат местоположения устанавливается следующая иконка
         userLocationView.getPin().setIcon(ImageProvider.fromResource(
                 this, android.R.drawable.ic_menu_mylocation));
         userLocationView.getAccuracyCircle().setFillColor(Color.BLUE);

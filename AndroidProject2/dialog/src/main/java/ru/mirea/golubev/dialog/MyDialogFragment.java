@@ -17,7 +17,7 @@ public class MyDialogFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle("Здравствуй МИРЭА!")
                 .setMessage("Успех близолк?")
-                .setIcon(R.mipmap.pepe)
+                .setIcon(R.mipmap.ic_launcher)
                 .setPositiveButton("Иду дальше", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialogInterface, int id) {
                         ((MainActivity)getActivity()).onOkClicked();
